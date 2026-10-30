@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aryan Sharma — Graphic Designer</title>
+    <meta
+      name="description"
+      content="Portfolio of Aryan Sharma, graphic designer and Computer Science student."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="nav" id="nav">
+      <a href="#home" class="logo">Aryan<span>.</span></a>
+      <nav>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="nav-actions">
+        <button id="themeToggle" class="icon-btn" aria-label="Toggle theme">
+          ◐
+        </button>
+        <button
+          id="menuToggle"
+          class="icon-btn menu-btn"
+          aria-label="Open menu"
+        >
+          ☰
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <!-- HERO -->
+      <section class="hero" id="home">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="container hero-inner">
+          <p class="eyebrow reveal">Hello, I'm</p>
+          <h1 class="reveal">Aryan Sharma<span class="dot">.</span></h1>
+          <p class="hero-role reveal">
+            I'm a <span id="typed" class="typed"></span
+            ><span class="cursor">|</span>
+          </p>
+          <p class="hero-sub reveal">
+            Graphic designer crafting bold visuals, brand identities and clean
+            interfaces — and a Computer Science student who builds what he
+            designs.
+          </p>
+          <div class="hero-cta reveal">
+            <a href="#work" class="btn btn-primary">View my work</a>
+            <a href="#contact" class="btn btn-ghost">Let's talk</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section class="section" id="about">
+        <div class="container about-grid">
+          <div class="about-card reveal">
+            <div class="avatar" aria-hidden="true">AA</div>
+            <ul class="facts">
+              <li><strong>Role</strong> Graphic Designer</li>
+              <li><strong>Studying</strong> B.Tech CSE, JECRC University</li>
+              <li><strong>Year</strong> 2nd year (2025–2029)</li>
+              <li><strong>Based in</strong> India</li>
+            </ul>
+          </div>
+          <div class="about-text reveal">
+            <h2 class="section-title">About me</h2>
+            <p>
+              I'm a graphic designer who loves turning ideas into clear,
+              memorable visuals — from logos and posters to social media
+              creatives and UI layouts.
+            </p>
+            <p>
+              Alongside design, I'm studying Computer Science Engineering and
+              take part in hackathons like Smart India Hackathon, where I get to
+              combine design thinking with real engineering problems.
+            </p>
+            <p>
+              I believe good design is simple, purposeful and makes people feel
+              something.
+            </p>
+            <div class="stats">
+              <div>
+                <span class="num" data-target="15">0</span
+                ><span class="plus">+</span><small>Designs created</small>
+              </div>
+              <div>
+                <span class="num" data-target="3">0</span
+                ><span class="plus">+</span><small>Hackathon projects</small>
+              </div>
+              <div>
+                <span class="num" data-target="2">0</span
+                ><span class="plus">+</span><small>Years learning</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section class="section alt" id="skills">
+        <div class="container">
+          <h2 class="section-title reveal">Skills &amp; tools</h2>
+          <div class="skills-grid">
+            <div class="skill reveal">
+              <div class="skill-head">
+                <span>Logo &amp; Brand Identity</span><span>90%</span>
+              </div>
+              <div class="bar"><div class="fill" data-level="90"></div></div>
+            </div>
+            <div class="skill reveal">
+              <div class="skill-head">
+                <span>Poster &amp; Social Media Design</span><span>92%</span>
+              </div>
+              <div class="bar"><div class="fill" data-level="92"></div></div>
+            </div>
+            <div class="skill reveal">
+              <div class="skill-head">
+                <span>Typography &amp; Layout</span><span>85%</span>
+              </div>
+              <div class="bar"><div class="fill" data-level="85"></div></div>
+            </div>
+            <div class="skill reveal">
+              <div class="skill-head">
+                <span>UI / UX Design</span><span>78%</span>
+              </div>
+              <div class="bar"><div class="fill" data-level="78"></div></div>
+            </div>
+            <div class="skill reveal">
+              <div class="skill-head">
+                <span>HTML, CSS &amp; JavaScript</span><span>72%</span>
+              </div>
+              <div class="bar"><div class="fill" data-level="72"></div></div>
+            </div>
+            <div class="skill reveal">
+              <div class="skill-head">
+                <span>Data Analysis (Python)</span><span>65%</span>
+              </div>
+              <div class="bar"><div class="fill" data-level="65"></div></div>
+            </div>
+          </div>
+          <div class="tools reveal">
+            <span>Photoshop</span><span>Illustrator</span><span>Figma</span
+            ><span>Canva</span><span>VS Code</span><span>Python</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- WORK -->
+      <section class="section" id="work">
+        <div class="container">
+          <h2 class="section-title reveal">Selected work</h2>
+          <div class="filters reveal">
+            <button class="filter active" data-filter="all">All</button>
+            <button class="filter" data-filter="design">Design</button>
+            <button class="filter" data-filter="tech">Tech</button>
+          </div>
+
+          <div class="projects" id="projects">
+            <!-- TECH PROJECTS -->
+            <article class="card reveal" data-cat="tech">
+              <div class="thumb t-medi"><span>＋</span></div>
+              <div class="card-body">
+                <span class="tag">Tech · SIH 2026</span>
+                <h3>MediKiosk (Parchi)</h3>
+                <p>
+                  An AI-powered patient intake kiosk built for Smart India
+                  Hackathon 2026 — designed to make hospital registration faster
+                  and simpler.
+                </p>
+              </div>
+            </article>
+
+            <article class="card reveal" data-cat="tech">
+              <div class="thumb t-uidai"><span>◎</span></div>
+              <div class="card-body">
+                <span class="tag">Tech · Hackathon</span>
+                <h3>UIDAI Hackathon Analysis</h3>
+                <p>
+                  Data analysis and visualisation of dummy Aadhaar datasets,
+                  turning raw numbers into clear insights.
+                </p>
+              </div>
+            </article>
+
+            <!-- DESIGN PROJECTS: replace titles/descriptions/images with your own -->
+            <article class="card reveal" data-cat="design">
+              <div class="thumb t-brand"><span>A</span></div>
+              <div class="card-body">
+                <span class="tag">Design · Branding</span>
+                <h3>Brand Identity Kit</h3>
+                <p>
+                  Logo, colour palette and typography system created for a
+                  fictional startup.
+                </p>
+              </div>
+            </article>
+
+            <article class="card reveal" data-cat="design">
+              <div class="thumb t-poster"><span>Aa</span></div>
+              <div class="card-body">
+                <span class="tag">Design · Poster</span>
+                <h3>Typographic Poster Series</h3>
+                <p>
+                  A series of bold, type-driven posters exploring contrast,
+                  scale and rhythm.
+                </p>
+              </div>
+            </article>
+
+            <article class="card reveal" data-cat="design">
+              <div class="thumb t-social"><span>♥</span></div>
+              <div class="card-body">
+                <span class="tag">Design · Social Media</span>
+                <h3>Social Media Campaign</h3>
+                <p>
+                  A cohesive set of post and story templates built for a college
+                  event.
+                </p>
+              </div>
+            </article>
+
+            <article class="card reveal" data-cat="design">
+              <div class="thumb t-ui"><span>▣</span></div>
+              <div class="card-body">
+                <span class="tag">Design · UI</span>
+                <h3>App UI Concept</h3>
+                <p>
+                  Mobile app screens with a clean, accessible interface and a
+                  consistent design system.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="section alt" id="contact">
+        <div class="container contact-grid">
+          <div class="reveal">
+            <h2 class="section-title">Let's work together</h2>
+            <p>
+              Have a project, a logo to design or just want to say hi? Send me a
+              message and I'll get back to you.
+            </p>
+            <a class="mail" href="mailto:AryanSharma260@gmail.com"
+              >AryanSharma260@gmail.com</a
+            >
+          </div>
+          <form class="form reveal" id="contactForm" novalidate>
+            <label
+              >Name<input
+                type="text"
+                id="name"
+                placeholder="Your name"
+                required
+            /></label>
+            <label
+              >Email<input
+                type="email"
+                id="email"
+                placeholder="you@example.com"
+                required
+            /></label>
+            <label
+              >Message<textarea
+                id="message"
+                rows="5"
+                placeholder="Tell me about your project…"
+                required
+              ></textarea>
+            </label>
+            <p class="form-msg" id="formMsg" role="status"></p>
+            <button type="submit" class="btn btn-primary">Send message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>
+        © <span id="year"></span> Aryan Sharma. Designed &amp; built with care.
+      </p>
+    </footer>
+
+    <button id="toTop" class="to-top" aria-label="Back to top">↑</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
